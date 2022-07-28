@@ -50,6 +50,7 @@ let winFunction = (value) => {
 // draw function
 const drawFunction=()=>{
     disableButtons();
+    bgmusic.pause();
     if (count==9) {
         messageRef.innerHTML=`&#x1F60E <br> It's a draw.`
     }
@@ -120,7 +121,7 @@ btnRef.forEach(e => {
         myAudio.play();
         if (count === 9) {
             drawFunction();
-            bgmusic.pause();
+            
         }
         winChecker();
     })
