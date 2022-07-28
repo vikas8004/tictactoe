@@ -120,6 +120,7 @@ btnRef.forEach(e => {
         myAudio.play();
         if (count === 9) {
             drawFunction();
+            bgmusic.pause();
         }
         winChecker();
     })
