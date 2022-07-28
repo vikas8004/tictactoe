@@ -41,7 +41,6 @@ html {
 
 #restart{
     font-size: 1.3em;
-    margin: 1.3em ;
     display: block;
     padding: .8em;
     border-radius: 10px;
@@ -49,6 +48,8 @@ html {
     background-color: #0a0027;
     color: #ffffff;
     position: relative;
+    margin-right: 5px;
+    width: 50%;
 }
 .popup{
     background: linear-gradient(135deg, #8052ec, #d161ff);
@@ -82,24 +83,28 @@ html {
 }
 .res{
     display : flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items:center;
+    margin: 1.3rem;
    
 }
 .turnVal{
     font-size:20px;
-    margin: 1.3em ;
+
     display: block;
-    padding: .8em;
+    padding: 2px;
     border-radius: 10px;
     border: none;
     background-color: #40cee0;
     color: #ffffff;
     position: relative;
     text-align: center;
-}
+    width: 50%;
+    margin: 5px;
+} 
 #turn{
     color: crimson;
     font-weight: bolder;
     font-size: 25px;
+   
 }
