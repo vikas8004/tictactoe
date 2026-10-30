@@ -18,7 +18,8 @@ let winningPatternArray = [
     [3, 4, 5],
     [1, 4, 7],
     [0, 4, 8],
-    [2, 4, 6]
+    [2, 4, 6],
+    [0, 6, 7],
 ]
 
 // player x turn is first
